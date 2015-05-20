@@ -1,3 +1,4 @@
+* { margin:0;padding:0;box-sizing:border-box; }
 body{
 	text-align: center;
 	font-family: Helvetica, sans-serif;
@@ -11,6 +12,9 @@ h1{
 h2{
 	font-size: 2em;
 }
+#cta h2 {
+	font-size: 3em;
+}
 h3{
 	font-size: 1.5em;
 }
@@ -19,18 +23,19 @@ h4{
 	font-weight: 200;
 }
 ul{
+	list-style-type:none;
 	text-align: left;
 }
 
 nav{
 	background-color: rgba(0, 171, 199,.5);
-	height: 100px;
 	color: #ffffff;
 	font-size: 0.85em;
+	padding:1em;
 }
 header{
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 #packages{
 	padding-top: 40px;
@@ -39,6 +44,7 @@ header{
 }
 .pack{
 	color:#61616B;
+	width:33.33%;
 }
 #promo{
 	padding-top: 100px;
