@@ -8,64 +8,110 @@ body{
 }
 h1{
 	font-size: 3em;
+	margin: 0.5em;
 }
 h2{
 	font-size: 2em;
+	margin: 0.5em;
 }
 #cta h2 {
 	font-size: 3em;
 }
 h3{
 	font-size: 1.5em;
+	margin: 1.5em;
 }
 h4{
 	font-size: 1.15em;
-	font-weight: 200;
+	font-weight: 300;
+}
+p{
+	margin: 0.5em;
 }
 ul{
 	list-style-type:none;
 	text-align: left;
+	margin: 1em;
 }
-
-nav{
-	background-color: rgba(0, 171, 199,.5);
-	color: #ffffff;
-	font-size: 0.85em;
-	padding:1em;
+li{
+	margin: 2em;
 }
 header{
-	padding-top: 5em;
-	padding-bottom: 5em;
+	background-color: rgba(0, 171, 199,.5);
+	padding:1.5em;
+	text-align: left;
 }
+nav{
+	color: #ffffff;
+	font-size: 0.85em;
+	text-align: right;
+}
+a{
+	text-decoration: none;
+	color: #ffffff;	
+}
+a:hover{
+	text-decoration: underline;
+}
+/* Splash MAIN section */
+#splash{
+	padding:8em 1em;
+}
+.buttons{
+	margin: 3em;
+}
+#splash a{
+	padding: 1em 2em;
+	color:#ffffff;
+	background-color: #4B4B5A;
+	text-decoration: none;
+}
+#splash a:hover {
+    background-color: #66667C;
+}
+/* Packages section */
 #packages{
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding:1.5em;
 	background-color: #ffffff;
+	padding:4em 1em;
 }
 .pack{
 	color:#61616B;
 	width:33.33%;
 }
+/* Promo section */
 #promo{
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding:4em 1em;
 }
+/* CTA section */
 #cta{
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding:6em 1em;
 	background-color: #ffffff;	
 }
-#quote{
-	padding-top: 100px;
-	padding-bottom: 100px;
+#cta a{
+	padding: 1em 2em;
+	color:#ffffff;
+	background-color: #4B4B5A;
+	text-decoration: none;
 }
+#cta a:hover {
+    background-color: #66667C;
+}
+/* Quote section */
+#quote{
+	padding:4em 1em;
+}
+/* Links section */
 #links{
 	background-color: #ffffff;
+	width: 33%;
+}
+#links a{
+	color: #4B4B5A;
 }
 footer{
 	background-color: #4A4B5A;
 	color:#ffffff;
 	font-size: 0.82em;
-	height: 72px;
-	padding-top: 40px;
+	padding:4em 1em;
 }
