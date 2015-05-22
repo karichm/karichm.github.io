@@ -1,32 +1,41 @@
-* { margin:0;padding:0;box-sizing:border-box; }
+@import url(fonts/neris);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+* { margin:0;padding:0;box-sizing:border-box; 
+}
 body{
 	text-align: center;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color:#4B4B5A;
 	font-size: 18px;
 	background-color: #E9E8E9;
 }
 h1{
-	font-size: 3em;
+	font-size: 4em;
 	margin: 0.5em;
+	font-family: Neris, Helvetica, sans-serif;
 }
 h2{
-	font-size: 2em;
+	font-size: 2.5em;
 	margin: 0.5em;
+	font-family: Neris, Helvetica, sans-serif;
 }
 #cta h2 {
-	font-size: 3em;
+	font-size: 4em;
 }
 h3{
 	font-size: 1.5em;
 	margin: 1.5em;
+	font-family: Neris, Helvetica, sans-serif;
 }
 h4{
-	font-size: 1.15em;
-	font-weight: 300;
+	font-size: 1.25em;
+	font-family: Neris, Helvetica, sans-serif;
+	font-weight: 200;
+
 }
 p{
-	margin: 0.5em;
+	line-height: 2em;
 }
 ul{
 	list-style-type:none;
@@ -37,17 +46,21 @@ li{
 	margin: 2em;
 }
 header{
-	background-color: rgba(0, 171, 199,.5);
-	padding:1.5em;
+	background-color: rgb(0, 171, 199);
+	padding: 1em 3em;
 	text-align: left;
 }
 nav{
 	color: #ffffff;
+	font-weight: 300;
 	font-size: 0.85em;
 	text-align: right;
+	text-transform: uppercase;
 }
 a{
+	font-family: Neris, Helvetica, sans-serif;
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #ffffff;	
 }
 a:hover{
@@ -55,7 +68,7 @@ a:hover{
 }
 /* Splash MAIN section */
 #splash{
-	padding:8em 1em;
+	padding:5em 1em;
 }
 .buttons{
 	margin: 3em;
@@ -63,7 +76,7 @@ a:hover{
 #splash a{
 	padding: 1em 2em;
 	color:#ffffff;
-	background-color: #4B4B5A;
+	background-color: #D81E5D;
 	text-decoration: none;
 }
 #splash a:hover {
@@ -91,7 +104,7 @@ a:hover{
 #cta a{
 	padding: 1em 2em;
 	color:#ffffff;
-	background-color: #4B4B5A;
+	background-color: #D81E5D;
 	text-decoration: none;
 }
 #cta a:hover {
@@ -99,7 +112,15 @@ a:hover{
 }
 /* Quote section */
 #quote{
-	padding:4em 1em;
+	padding: 6em 1em;
+	font-family: 'Playfair Display', serif;
+	color: #ffffff;
+	font-size: 1.5em;
+	background-image: url(http://verticalloop.com/wp-content/uploads/2015/04/background-home-vl-1920.jpg);
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 /* Links section */
 #links{
@@ -111,7 +132,10 @@ a:hover{
 }
 footer{
 	background-color: #4A4B5A;
-	color:#ffffff;
+	color:rgba(255, 255, 255, 0.5);
 	font-size: 0.82em;
 	padding:4em 1em;
+}
+footer img{
+	opacity: 0.5;
 }
