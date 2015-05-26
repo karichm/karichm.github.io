@@ -9,11 +9,8 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color:#4B4B5A;
 	font-size: 18px;
-	background-image: url(http://verticalloop.com/wp-content/uploads/2015/04/background-home-vl-1920.jpg);
-	background-position: center;
+	background: url(http://verticalloop.com/wp-content/uploads/2015/04/background-home-vl-1920.jpg) center no-repeat fixed;
 	background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 h1{
 	font-size: 4em;
@@ -76,7 +73,7 @@ a:hover{
 	background-color: #ffffff;
 }
 .wrapper{
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 /*This is the main Button- CTA- having problems with margin!!!*/
@@ -125,11 +122,6 @@ a:hover{
 	font-weight: bold;
 	color: #ffffff;
 	font-size: 1.75em;
-	background-image: url(http://verticalloop.com/wp-content/uploads/2015/04/background-home-vl-1920.jpg);
-	background-position: center;
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 /* Links section */
 .social-buttons a{
