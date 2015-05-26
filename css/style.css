@@ -90,6 +90,7 @@ a:hover{
 .buttons:hover {
     background-color: #D81E5D;
     border-bottom: 0.25em solid #99304E;
+    text-decoration:none;
 }
 /* Packages section */
 #packages{
