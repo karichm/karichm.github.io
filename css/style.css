@@ -99,6 +99,7 @@ a:hover{
 	padding:4em 1em;
 }
 .pack{
+	float:left;
 	width:33.33%;
 }
 /* Promo section discount*/
@@ -151,4 +152,11 @@ footer{
 }
 footer img{
 	opacity: 0.5;
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
 }
