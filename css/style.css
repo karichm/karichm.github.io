@@ -77,20 +77,19 @@ a:hover{
 	margin: 0 auto;
 }
 /*This is the main Button- CTA- having problems with margin!!!*/
-.buttons a{
+.buttons {
+	display:inline-block;
 	padding: 1em 2em;
 	color:#ffffff;
 	background-color: #DB3B61;
+	margin-top: 3em;
 	text-decoration: none;
 	border-bottom: 0.25em solid #99304E;
 	border-radius: 0.3em 0.3em;
 }
-.buttons a:hover {
+.buttons:hover {
     background-color: #D81E5D;
     border-bottom: 0.25em solid #99304E;
-}
-.buttons {
-	margin-top: 3em;
 }
 /* Packages section */
 #packages{
