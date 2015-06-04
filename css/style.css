@@ -45,9 +45,10 @@ ul{
 li{
 	margin: 2em;
 }
+/**John: whow can align the logo with the navigation, on the same baseline**/
 header{
 	background-color: rgb(0, 171, 199);
-	padding: 0.5em 2em;
+	padding: 1em 2em;
 	text-align: left;
 	border-bottom: .2em solid #089FAF;
 }
@@ -63,9 +64,11 @@ a{
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #ffffff;	
+	display: inline-block;
+	margin: 1em;
 }
 a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 }
 /* Splash MAIN section */
 #splash{
@@ -76,7 +79,7 @@ a:hover{
 	max-width: 1000px;
 	margin: 0 auto;
 }
-/*This is the main Button- CTA- having problems with margin!!!*/
+/*This is the main Button- CTA*/
 .buttons {
 	display:inline-block;
 	padding: 1em 2em;
@@ -131,28 +134,36 @@ a:hover{
 	background-color: #DB3B61;
 	text-decoration: none;
 	border-radius: 0.3em 0.3em;
+	display: inline-block;
 }
 #links{
 	background-color: #ffffff;
-	width: 33%;
 	font-family: Neris, Helvetica, sans-serif;
+	padding: 1em;
 }
 #links a{
 	color: #4B4B5A;
 	font-size: 1.25em;
 }
+.link{
+	float: left;
+	width: 33%;
+}
+/* sections border */
 #splash, #packages, #promo, #cta, #quote, #links {
 	border-bottom: .15em solid #DDDBDD;
 }
+/* footer */
 footer{
 	background-color: #4A4B5A;
 	color:rgba(255, 255, 255, 0.5);
 	font-size: 0.82em;
-	padding:4em 1em;
+	padding:4em 2em;
 }
 footer img{
 	opacity: 0.5;
 }
+/* clearfix for float elements*/
 .clearfix:after {
 	content: ".";
 	visibility: hidden;

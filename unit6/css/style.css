@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+* { margin:0;padding:0;box-sizing:border-box; 
+}
+body{
+	color: #b2b2b2;
+	font-family: 'Lato' sans-serif;
+	font-size: 16px;
+	background: url(http://sachamms.github.io/LiefjeSmith/images/homebackground_discovery.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+a{
+	color: #b2b2b2;
+	text-decoration: none;
+}
+a:hover{
+	color: #4d4d4d;
+	text-decoration: none;
+}
+
+header{
+	padding: 0 2em;
+	background-color: #FFFFFF;
+}
+
+nav{
+	text-align: right;
+	padding: 1em 2em;
+	background-color: #FFFFFF;
+}
+/*I wanted to do something here- failed!!*/
+#main{
+	height:100vh; 
+}
+#splash{
+	text-align: center;
+	padding: 9em;
+}
+/*I want to create 3 buttons with an image as a backgtound-help!*/
+.category{
+	float:left;
+}
+
+/*Any way I can set the footer fixed to the bottom of the browser 
+even if the content is smaller than the browser height???*/
+footer{
+	font-size: 0.8em;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .8);
+	padding: 3em;
+}
+footer a{
+	text-decoration: underline;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
