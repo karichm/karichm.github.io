@@ -22,26 +22,27 @@ a:hover{
 header{
 	padding: 1.2em 2em;
 	background-color: #FFFFFF;
+	box-shadow: 0px 0px 10px;
 }
 
 nav{
 	text-align: right;
 	padding: 0em 2em;
-	background-color: #FFFFFF;
 	position: absolute;
 	top: 2.2em;
 	right: 1em;
 }
+/*HOME*/
 #wrapper{
 	text-align: center;
-	padding: 9em;
+	padding: 10em 8em;
 }
 /*I want to create 3 buttons with an image as a backgtound-help!*/
 .category{
 	float:left;
 	position: relative;
-	width:33,33%;
-	padding: 1em;
+	width:33%;
+	text-align: center;
 }
 .category p{
 	position: absolute;
@@ -49,6 +50,20 @@ nav{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	}
+/*WORK*/
+h1{
+	text-align: center;
+	font-size: 5em;
+	padding-top: 1em;
+	color: #4d4d4d;
+}
+#worknav{
+	text-align: center;
+	padding: .5em;
+	letter-spacing: .2em;
+
+}
+/*FOOTER*/
 footer{
 	font-size: 0.8em;
 	text-align: center;
