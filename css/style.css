@@ -164,7 +164,7 @@ blockquote{
 }
 .link{
 	float: left;
-	width: 33%;
+	width: 33.33%;
 }
 /* sections border */
 #splash, #packages, #promo, #cta, #quote, #links {
@@ -188,37 +188,30 @@ footer img{
 	height: 0;
 	clear: both;
 }
-@media only screen and (max-width: 320px){
+@media only screen and (min-width:321px) and (max-width: 768px){
 	body{
-		font-size: 12px
-	}
-	header{
-	padding: 1em 1em;
-	}
-	header img{
-		width:40%;
-	}
-	.pack, #links, {
-		float: none;
-		text-align: center;
-	}
-	.wrapper{
-	max-width: 96%;
-	}
-
-}
-@media only screen and (max-width: 768px){
-	body{
-		font-size: 14px
+		font-size: 14px;
 	}
 	header{
 		padding: 1em 1em;
 	}
-	.pack, #links, {
+	.pack, #links {
 		float: none;
 		text-align: center;
 	}
-	.wrapper{
-	max-width: 90%;
+}
+@media only screen and (max-width: 320px){
+	body{
+		font-size: 12px;
+	}
+	header{
+		padding: 1em 1em;
+	}
+	header img{
+		width:40%;
+	}
+	.pack, #links {
+		float: none;
+		text-align: center;
 	}
 }
