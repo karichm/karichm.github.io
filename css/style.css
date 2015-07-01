@@ -190,14 +190,14 @@ footer img{
 }
 @media only screen and (max-width: 320px){
 	body{
-		font-size: 0.75em
-	}
-	h1{
-		font-size: 2em;
+		font-size: 10px
 	}
 	.pack, #links, {
 		float: none;
 		text-align: center;
+	}
+	.wrapper{
+	max-width: 96%;
 	}
 }
 @media only screen and (max-width: 480px){
