@@ -201,10 +201,26 @@ footer img{
 	}
 }
 @media only screen and (max-width: 480px){
-	.pack{
+	body{
+		font-size: 16px
+	}
+	.pack, #links, {
 		float: none;
 		text-align: center;
 	}
+	.wrapper{
+	max-width: 92%;
+	}
 }
 @media only screen and (max-width: 768px){
+	body{
+		font-size: 14px
+	}
+	.pack, #links, {
+		float: none;
+		text-align: center;
+	}
+	.wrapper{
+	max-width: 90%;
+	}
 }
