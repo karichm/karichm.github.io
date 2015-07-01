@@ -190,7 +190,13 @@ footer img{
 }
 @media only screen and (max-width: 320px){
 	body{
-		font-size: 10px
+		font-size: 12px
+	}
+	header{
+	padding: 1em 1em;
+	}
+	header img{
+		width:40%;
 	}
 	.pack, #links, {
 		float: none;
@@ -199,22 +205,14 @@ footer img{
 	.wrapper{
 	max-width: 96%;
 	}
-}
-@media only screen and (max-width: 480px){
-	body{
-		font-size: 16px
-	}
-	.pack, #links, {
-		float: none;
-		text-align: center;
-	}
-	.wrapper{
-	max-width: 92%;
-	}
+
 }
 @media only screen and (max-width: 768px){
 	body{
 		font-size: 14px
+	}
+	header{
+		padding: 1em 1em;
 	}
 	.pack, #links, {
 		float: none;
