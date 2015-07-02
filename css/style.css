@@ -188,30 +188,83 @@ footer img{
 	height: 0;
 	clear: both;
 }
-@media only screen and (min-width:321px) and (max-width: 768px){
+@media only screen and (min-width: 938px) and (max-width: 1140px){
 	body{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	header{
-		padding: 1em 1em;
+		padding: 1em 4em;
 	}
-	.pack, #links {
-		float: none;
-		text-align: center;
+	.pack>img{
+		width: 60%;
+		margin: 1em;
+	}
+	.pack li img{
+		width: 30%;
 	}
 }
-@media only screen and (max-width: 320px){
+@media only screen and (min-width:622px) and (max-width: 937px){
 	body{
-		font-size: 12px;
+		font-size: 16px;
+	}
+	h1{
+		font-size: 3em;
+	}
+	h2{
+		font-size: 2em;
+	}
+	#cta h2 {
+	font-size: 3em;
 	}
 	header{
 		padding: 1em 1em;
 	}
-	header img{
-		width:40%;
+	.pack{
+		width: 100%;
 	}
-	.pack, #links {
-		float: none;
-		text-align: center;
+	.pack<img{
+		width: 100%;
+	}
+	#splash{
+		padding: 2em 1em;
+	}
+}
+@media only screen and (min-width: 300px) and (max-width: 621px){
+	body{
+		font-size: 16px;
+	}
+	h1{
+		font-size: 2.5em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	#cta h2 {
+		font-size: 2em;
+	}
+	header{
+		padding: .5em .5em;
+	}
+	header img{
+		width: 35%;
+	}
+	.pack{
+		width: 100%;
+	}
+	.pack<img{
+		width: 100%;
+	}
+	#splash{
+		padding: 4em 1.5em;
+	}
+	#packages{
+	padding:4em 2em;
+}
+	footer{
+		padding: 1em 1em;
+	}
+	nav{
+		right: 1.5em;
+		top: 1em;
 	}
 }
