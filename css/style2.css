@@ -41,7 +41,7 @@ li{
 }
 header{
 	background-color: rgb(0, 171, 199);
-	padding: 1em 3em;
+	padding: 1em 7em;
 	text-align: left;
 	border-bottom: .2em solid #089FAF;
 }
@@ -52,7 +52,7 @@ nav{
 	text-align: right;
 	text-transform: uppercase;
 	position: absolute;
-	right: 3em;
+	right: 7em;
 	top: 2em;
 }
 nav a{
@@ -91,7 +91,8 @@ blockquote{
 }
 .wrapper{
 	max-width: 800px;
-	margin: 1em auto;
+	margin: 0 auto;
+	text-align: center;
 }
 /*This is the main Button- CTA*/
 .buttons {
@@ -118,20 +119,17 @@ blockquote{
 }
 #packages h3{
 	text-align: left;
-	margin-top: 1em;
-	padding-bottom: .25em;
-	border-bottom: .075em solid #DDDBDD;
+	margin-top: 2em;
+	padding-bottom: .5em;
+	border-bottom: .05em solid #DDDBDD;
 }
-.pack p{
-	text-align: left;
-	margin-bottom: 1em;
-	color: #827e8a;
-	font-style: italic;
+.one-package{
+	padding: 2em;
 }
 .pack{
 	float:left;
-	width: 33.33%;
-	padding: 1.25em;
+	width:25%;
+	padding: 1em;
 }
 .pack>img{
 	width: 50%;
@@ -142,7 +140,7 @@ blockquote{
 	margin: 0.5em;
 	}
 .pack h3{
-	margin: 0.25em 0em;
+	margin: 0.25em;
 }
 /* Promo section discount*/
 #promo{
@@ -232,7 +230,7 @@ footer a:hover{
 		font-size: 16px;
 	}
 	header{
-		padding: 1em 3em;
+		padding: 1em 4em;
 	}
 	.pack>img{
 		width: 60%;
@@ -267,9 +265,6 @@ footer a:hover{
 	#packages{
 		padding:2em;
 	}
-	.pack li img{
-		width: 35%;
-	}
 }
 @media only screen and (min-width: 300px) and (max-width: 621px){
 	body{
@@ -303,15 +298,12 @@ footer a:hover{
 	.pack<img{
 		width: 100%;
 	}
-	.pack li img{
-		width: 40%;
-	}	
 	#splash{
 		padding: 4em 1.5em;
 	}
 	#packages{
-		padding:4em 2em;
-	}
+	padding:4em 2em;
+}
 	footer{
 		padding: 1em 1em;
 	}
