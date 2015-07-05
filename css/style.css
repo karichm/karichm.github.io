@@ -82,7 +82,7 @@ blockquote{
 	font-size: 2em;
 }
 /* Splash MAIN section */
-#splash, #splash-contact{
+#splash, #splash-contact, #splash-brand{
 	padding:6em 1em;
 	background-color: #ffffff;
 }
@@ -217,31 +217,31 @@ footer a:hover{
 	text-decoration: underline;
 }
 /*----------FORM.HTML STARTS----------*/
+#splash-contact p{
+	padding: .6em .4em 0 0;
+	position: relative;
+}
 form{
 	text-align: left;
 	max-width: 500px;
 	position: absolute;
 	left: 30%;
-	transform: ;
 }
-form option{
+form option, textarea{
 	height: 10em;
+}
+form p{
+	font-family: 'Montserrat', Helvetica, sans-serif;
 }
 input{
 	width: 20em;
 	height: 3em;
 	border-radius: 0.3em;
 	border: .15em solid #DDDBDD;
-}
-textarea{
-	margin-left: 10em;
+	padding: 1em;
 }
 /****-----------JOHN: how can I change Input Value Styles??-------****/
 
-#splash-contact p{
-	padding: .6em .4em 0 0;
-	position: relative;
-}
 /*----------FORM.HTML ENDS----------*/
 /* clearfix for float elements*/
 .clearfix:after {

@@ -19,13 +19,14 @@
 		<h1>Hello. Let's get started!</h1>
 		<form>
 			<p>Name</p>
-			<input type="text" name="name" value="Your name">
+			<input type="text" name="name" placeholder="Your name">
 			<p>Email</p>
-			<input type="email" name="email" value="name@email.com">
+			<input type="email" name="email" placeholder="name@email.com">
 			<p>Phone</p>
-			<input type="text" name="name" value="Your cellphone">			
+			<input type="tel" name="tel" placeholder="Your cellphone">			
 			<p>Do you have an existing brand identity?</p>
-
+			<input type="radio" name="sex" value="male" checked>Yes
+			<input type="radio" name="sex" value="female">No
 			<p>What you need?</p>
 			<select name="Our design packages">
 				<option value="volvo">Full design package</option>
@@ -36,11 +37,38 @@
 				<option value="audi">Other</option>
 			</select>
 			<p>Tell us a little about your brand, project or idea?</p>
-			<textarea name="message" rows="10" cols="30">
-			The cat was playing in the garden.
+			<textarea name="message" rows="10" cols="30">The cat was playing in the garden.
 			</textarea>
-
-			Send
+			<input type="button" onclick="alert('Hello World!')" value="Click Me!">
+			<input type="submit" value="Submit">
 			</form> 
 	</section>
+		<section id="links">
+		<section class="clearfix">
+			<section class="link">
+				<p>Learn more</p>
+				<a href="#">	
+				<p>ABOUT US</p>
+				</a>
+			</section>
+			<section class="link">
+				<p>See our work</p>
+				<a href="#">OUR WORK</a>
+			</section>
+			<section class="link">
+			<p>Let’s get social</p>
+				<section class="social-buttons">
+				<a href="http://facebook.com/verticalloop" target="_blank"><img src="images/icon-fb.png"></a>
+				<a href="https://www.linkedin.com/company/vertical-loop"><img src="images/icon-in.png" target="_blank"></a>
+				<a href="https://dribbble.com/Verticalloop" target="_blank"><img src="images/icon-dribbble.png"></a>
+				</section>
+			</section>
+		</section>
+	</section>
+	<!-- footer-->
+	<footer>
+		<img src="images/logo-white.png" alt="Vertical Loop Logo" title="Vertical Loop -N Digital Design Studio" width="160" align="left">
+		<p> We’d love to hear from you. Let’s talk ;)
+		<a href="mailto:hello@verticalloop.cpm"> Hello@verticalloop.com</a></p>
+	</footer>
 </body>
