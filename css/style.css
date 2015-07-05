@@ -8,7 +8,7 @@
 body{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	color:#4B4B5A;
+	color: #4B4B5A;
 	font-size: 18px;
 }
 h1, h2, h3, h4 {
@@ -61,15 +61,12 @@ nav a{
 nav a:hover{
 	color: #c7ebf0;
 }
-a{
+#splash a, #cta a, nav a, footer a{
 	font-family: 'Montserrat', Helvetica, sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #ffffff;	
 	display: inline-block;
-}
-a:hover{
-	text-decoration: none;
 }
 cite{
 	font-family: 'Montserrat', Helvetica, sans-serif;
@@ -85,7 +82,7 @@ blockquote{
 	font-size: 2em;
 }
 /* Splash MAIN section */
-#splash{
+#splash, #splash-contact{
 	padding:6em 1em;
 	background-color: #ffffff;
 }
@@ -135,15 +132,12 @@ blockquote{
 }
 .pack>img{
 	width: 50%;
-	margin: 0.5em;
 }
 .pack ul img{
 	width: 25%;
 	margin: 0.5em;
 	}
-.pack h3{
-	margin: 0.25em 0em;
-}
+
 /* Promo section discount*/
 #promo{
 	padding:4em 1em;
@@ -167,20 +161,22 @@ blockquote{
 	background-size: cover;
 }
 /* Links section */
-#links{
-	background-color: #ffffff;
-	font-family: Neris, Helvetica, sans-serif;
-}
-#links a{
-	color: #4B4B5A;
-	font-size: 1.25em;
-}
 .link{
 	float: left;
 	width: 33.33%;
+	padding: 2em;
+	border-right: .15em solid #DDDBDD;
 }
-.link :hover{
-	background-color: #D81E5D;
+.link a{
+	text-decoration: none;
+	color: #4B4B5A;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.link a:hover{
+	text-decoration: none;
+	color: #676878;
 }
 .social-buttons a{
 	display:inline-block;
@@ -215,10 +211,38 @@ footer img{
 }
 footer a{
 	margin:0.5em;
+	color:rgba(255, 255, 255, 0.5);
 }
 footer a:hover{
-	color: #3b5998;
+	text-decoration: underline;
 }
+/*----------FORM.HTML STARTS----------*/
+form{
+	text-align: left;
+	max-width: 500px;
+	position: absolute;
+	left: 30%;
+	transform: ;
+}
+form option{
+	height: 10em;
+}
+input{
+	width: 20em;
+	height: 3em;
+	border-radius: 0.3em;
+	border: .15em solid #DDDBDD;
+}
+textarea{
+	margin-left: 10em;
+}
+/****-----------JOHN: how can I change Input Value Styles??-------****/
+
+#splash-contact p{
+	padding: .6em .4em 0 0;
+	position: relative;
+}
+/*----------FORM.HTML ENDS----------*/
 /* clearfix for float elements*/
 .clearfix:after {
 	content: ".";
@@ -231,12 +255,8 @@ footer a:hover{
 	body{
 		font-size: 16px;
 	}
-	header{
-		padding: 1em 3em;
-	}
 	.pack>img{
-		width: 60%;
-		margin: 1em;
+		width: 80%;
 	}
 	.pack li img{
 		width: 30%;
@@ -258,14 +278,8 @@ footer a:hover{
 	h3{
 		font-size: 1.25em;
 	}
-	header{
-		padding: 1em 1em;
-	}
-	nav{
-		right: 1.5em;
-	}
 	#packages{
-		padding:2em;
+		padding: 1em;
 	}
 	.pack li img{
 		width: 35%;
