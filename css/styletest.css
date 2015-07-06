@@ -4,15 +4,13 @@
 }
 
 body{
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
 	color: #4B4B5A;
 	font-size: 18px;
 }
 h1{
-	font-family: 'Montserrat', Helvetica, sans-serif;
-	font-size: 3.7em;
-	text-align: right;
+	display: block;
 }
 #test1{
 	min-height: 800px;
@@ -33,7 +31,7 @@ h1{
 	background-size: cover;
 }
 #test1 h1, #test2 h1, #test3 h1{
-	max-width: 1000px;
+	max-width: 500px;
 	margin: auto;
 	padding-top: 1em;
 	padding-right: 1em;
