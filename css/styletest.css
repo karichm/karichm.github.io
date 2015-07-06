@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* { margin:0;padding:0;box-sizing:border-box; 
+}
+
+body{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #4B4B5A;
+	font-size: 18px;
+}
+h1{
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 3.7em;
+	text-align: right;
+}
+#test1{
+	min-height: 800px;
+	margin: auto;
+	background: url(images/test1.jpg) center no-repeat fixed;
+	background-size: cover;
+}
+#test2{
+	min-height: 800px;
+	margin: auto;
+	background: url(images/test2.jpg) center no-repeat fixed;
+	background-size: cover;
+}
+#test3{
+	min-height: 800px;
+	margin: auto;
+	background: url(images/test3.jpg) center no-repeat fixed;
+	background-size: cover;
+}
+#test1 h1, #test2 h1, #test3 h1{
+	max-width: 1000px;
+	margin: auto;
+	padding-top: 1em;
+	padding-right: 1em;
+}

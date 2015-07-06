@@ -166,7 +166,8 @@ blockquote{
 	width: 33.33%;
 	padding: 2em;
 	border-right: .15em solid #DDDBDD;
-}
+	min-height: 145px;
+	}
 .link a{
 	text-decoration: none;
 	color: #4B4B5A;
@@ -224,7 +225,7 @@ footer a:hover{
 form{
 	text-align: left;
 	max-width: 500px;
-	position: absolute;
+	margin: auto;
 	left: 30%;
 }
 form option, textarea{
