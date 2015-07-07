@@ -10,29 +10,41 @@ body{
 	font-size: 18px;
 }
 h1{
+	font-size: 3.7em;
 	display: block;
 }
 #test1{
-	min-height: 800px;
-	margin: auto;
-	background: url(images/test1.jpg) center no-repeat fixed;
+	background: url(../images/test1.jpg) center no-repeat fixed;
 	background-size: cover;
+	height:100vh;
 }
 #test2{
-	min-height: 800px;
-	margin: auto;
-	background: url(images/test2.jpg) center no-repeat fixed;
+	background: url(../images/test2.jpg) center no-repeat fixed;
 	background-size: cover;
+	height:100vh;	
 }
 #test3{
-	min-height: 800px;
-	margin: auto;
-	background: url(images/test3.jpg) center no-repeat fixed;
+	background: url(../images/test3.jpg) center no-repeat fixed;
 	background-size: cover;
+	height:100vh;	
 }
-#test1 h1, #test2 h1, #test3 h1{
-	max-width: 500px;
-	margin: auto;
+.text{
+	max-width: 32%;
+	margin-left: 55%;
+	padding-top: 8em;
+}
+p{
 	padding-top: 1em;
-	padding-right: 1em;
+	line-height: 1.5em;
+}
+a{
+	display: inline-block;
+	padding: 1em;
+	margin-top: 2em;
+	background-color: green;
+	text-align: center;
+	border-radius: 0.2em;
+}
+a:hover{
+	background-color: blue;
 }

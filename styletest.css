@@ -4,36 +4,32 @@
 }
 
 body{
-	text-align: left;
 	font-family: 'Montserrat', sans-serif;
 	color: #4B4B5A;
 	font-size: 18px;
+	text-align: left;
 }
 h1{
 	font-size: 3.7em;
-	display: block;
 }
 #test1{
-	min-height: 800px;
+	height: 100vh;
 	margin: auto;
-	background: url(images/test1.jpg) center no-repeat fixed;
+	background: url(/images/test1.jpg) center no-repeat fixed;
 	background-size: cover;
 }
 #test2{
-	min-height: 800px;
+	height: 100vh;
 	margin: auto;
-	background: url(images/test2.jpg) center no-repeat fixed;
+	background: url(/images/test2.jpg) center no-repeat fixed;
 	background-size: cover;
 }
 #test3{
-	min-height: 800px;
+	height: 100vh;
 	margin: auto;
-	background: url(images/test3.jpg) center no-repeat fixed;
+	background: url('/images/test3.jpg') center no-repeat fixed;
 	background-size: cover;
 }
-#test1 h1, #test1 p, #test2 h1, #test3 h1{
-	max-width: 500px;
-	margin: auto;
-	padding-top: 1em;
-	padding-right: 1em;
+.text h1, p{
+	margin-left: 3em;
 }
