@@ -40,7 +40,7 @@ ul{
 li{
 }
 header{
-	background-color: rgb(0, 171, 199);
+	background-color: #00BCD4;
 	padding: 1em 3em;
 	text-align: left;
 	border-bottom: .2em solid #089FAF;
@@ -104,7 +104,7 @@ blockquote{
   	transition-timing-function: ease-in-out;
 }
 .buttons:hover{
-    background-color: #D81E5D;
+    background-color: #D81B60;
     border-bottom: 0.25em solid #99304E;
     text-decoration:none;
 }
@@ -133,6 +133,14 @@ blockquote{
 .pack>img{
 	width: 100%;
 }
+.pack div{
+	overflow: hidden;
+}
+.pack div img:hover{
+	transform: scale(1.15);
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
 .pack ul img{
 	width: 5%;
 	margin: 0.5em;
@@ -146,13 +154,16 @@ blockquote{
 	background-color: #ffffff;
 	border-radius: 0.35em;
 	margin-top: 1em;
+	width: 100%;
 }
 .pack a:hover{
 	color: #4B4B5A;
+	background-color: #F4F3F3;
 }
-.pack ul>a:hover{
-	padding-left: 1em;
-}
+.pack li:hover{
+		background-color: #F4F3F3;
+		transition-duration: .5s;
+	}
 /* Promo section discount*/
 #promo{
 	padding:4em 1em;
@@ -368,6 +379,7 @@ input{
 	.pack li img{
 		width: 10%;
 	}	
+
 	.link{
 		float: none;
 		width: 100%;
