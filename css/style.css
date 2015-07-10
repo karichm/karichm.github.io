@@ -103,13 +103,13 @@ blockquote{
 	transition-duration: 0.15s;
   	transition-timing-function: ease-in-out;
 }
-.buttons:hover {
+.buttons:hover{
     background-color: #D81E5D;
     border-bottom: 0.25em solid #99304E;
     text-decoration:none;
 }
 /* Packages section */
-#packages{
+#packages, #values, #brand-cta{
 	background-color: #E9E8E9;
 	padding: 3.5em 7em;
 }
@@ -125,7 +125,7 @@ blockquote{
 	color: #827e8a;
 	font-style: italic;
 }
-.pack{
+.pack, .value{
 	float:left;
 	width: 33.33%;
 	padding: 1.25em;
@@ -137,13 +137,24 @@ blockquote{
 	width: 25%;
 	margin: 0.5em;
 	}
-
+.pack a{
+	text-decoration: none;
+	color: #827e8a;
+	font-style: italic;
+	display:inline-block;
+	padding: .5em 1em;
+	background-color: #ffffff;
+	border-radius: 0.35em;
+}
+.pack a:hover{
+	color: #4B4B5A;
+}
 /* Promo section discount*/
 #promo{
 	padding:4em 1em;
 	background-color: rgba(74, 75, 90, .90);
 	color: #ffffff;
-	background: url(http://verticalloop.com/wp-content/uploads/2015/04/background-home-vl-1920.jpg) center no-repeat fixed;
+	background: url(../images/background-home-vl-1920.jpg) center no-repeat fixed;
 	background-size: cover;
 }
 #promo h2{
@@ -157,7 +168,7 @@ blockquote{
 /* Quote section */
 #quote{
 	padding: 8em 1em;
-	background: url(http://verticalloop.com/wp-content/uploads/2015/04/background-home-vl-1920.jpg) center no-repeat fixed;
+	background: url(../images/background-home-vl-1920.jpg) center no-repeat fixed;
 	background-size: cover;
 }
 /* Links section */
@@ -217,6 +228,41 @@ footer a{
 footer a:hover{
 	text-decoration: underline;
 }
+/*----------BRAND--------------------*/
+#process{
+	text-align: left;
+}
+.step p{
+	padding-bottom: 2.5em;
+}
+#process{
+	padding: 3.5em 7em;
+}
+.value p{
+	margin-top: .75em;
+}
+.value img{
+	margin-bottom: 1em;
+}
+/*********JOHN!!!!!! HELP!!!!!*************/
+/*********How to Float two columns with diffrent widht*************/
+/*********JOHN!!!!!! HELP!!!!!*************/
+.two-columns{
+	float:left;
+	width: 50%;
+	padding: 1.25em;
+}
+.icon {
+	width: 30%;
+}
+.step{
+	width: 70%;
+}
+#air{
+	background: url(../images/background-home-vl-1920.jpg) center no-repeat fixed;
+	background-size: cover;
+	min-height: 80vh;
+}
 /*----------FORM.HTML STARTS----------*/
 #splash-contact p{
 	padding: .6em .4em 0 0;
@@ -241,8 +287,12 @@ input{
 	border: .15em solid #DDDBDD;
 	padding: 1em;
 }
-/****-----------JOHN: how can I change Input Value Styles??-------****/
-
+.icon{
+	width: 20%;
+}
+.step{
+	width: 80%;
+}
 /*----------FORM.HTML ENDS----------*/
 /* clearfix for float elements*/
 .clearfix:after {

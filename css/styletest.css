@@ -66,9 +66,10 @@ nav a:hover{
 	height:100vh;
 }
 .intro{
-	max-width: 50%;
-	margin-left: 25%;
+	max-width: 60%;
+	margin: auto;
 	padding-top: 15%;
+	text-align: center;
 }
 #test1{
 	background: url(../images/test1.jpg) center no-repeat fixed;
