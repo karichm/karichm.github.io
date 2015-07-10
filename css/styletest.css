@@ -17,7 +17,7 @@ p{
 	padding-top: 1em;
 	line-height: 1.5em;
 }
-.text a{
+.text a, .intro a{
 	display:inline-block;
 	padding: 1em 2em;
 	color: #ffffff;
@@ -62,8 +62,13 @@ nav a{
 nav a:hover{
 	color: #c7ebf0;
 }
-#intro {
-	height:100vh;	
+#intro, #calltoaction{
+	height:100vh;
+}
+.intro{
+	max-width: 50%;
+	margin-left: 25%;
+	padding-top: 15%;
 }
 #test1{
 	background: url(../images/test1.jpg) center no-repeat fixed;
@@ -85,8 +90,4 @@ nav a:hover{
 	margin-left: 55%;
 	padding-top: 8em;
 }
-#calltoaction{
-	background: url(../images/ourprocess.png) center no-repeat fixed;
-	background-size: cover;
-	height:100vh;
-}
+
