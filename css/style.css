@@ -131,10 +131,10 @@ blockquote{
 	padding: 1.25em;
 }
 .pack>img{
-	width: 50%;
+	width: 100%;
 }
 .pack ul img{
-	width: 25%;
+	width: 5%;
 	margin: 0.5em;
 	}
 .pack a{
@@ -145,6 +145,7 @@ blockquote{
 	padding: .5em 1em;
 	background-color: #ffffff;
 	border-radius: 0.35em;
+	margin-top: 1em;
 }
 .pack a:hover{
 	color: #4B4B5A;
