@@ -303,41 +303,26 @@ input{
 	height: 0;
 	clear: both;
 }
-@media only screen and (min-width: 938px) and (max-width: 1140px){
+@media only screen and (min-width: 872px) and (max-width: 1000px){
 	body{
 		font-size: 16px;
 	}
-	.pack>img{
-		width: 80%;
-	}
-	.pack li img{
-		width: 30%;
+	h3{
+		font-size: 1.25em;
 	}
 }
-@media only screen and (min-width:622px) and (max-width: 937px){
+@media only screen and (min-width: 712px) and (max-width: 871px){
 	body{
 		font-size: 16px;
-	}
-	h1{
-		font-size: 3em;
-	}
-	h2{
-		font-size: 2em;
-	}
-	#cta h2 {
-		font-size: 3em;
 	}
 	h3{
 		font-size: 1.25em;
 	}
 	#packages{
-		padding: 1em;
-	}
-	.pack li img{
-		width: 35%;
+		padding:4em 2em;
 	}
 }
-@media only screen and (min-width: 300px) and (max-width: 621px){
+@media only screen and (min-width: 300px) and (max-width: 711px){
 	body{
 		font-size: 15px;
 	}
@@ -363,21 +348,30 @@ input{
 		right: 1.5em;
 		top: 1em;
 	}
-	.pack{
-		width: 100%;
-	}
-	.pack<img{
-		width: 100%;
-	}
-	.pack li img{
-		width: 40%;
-	}	
 	#splash{
 		padding: 4em 1.5em;
 	}
 	#packages{
-		padding:4em 2em;
+		padding: 4em 2em;
+		margin: auto;
 	}
+	.pack{
+		width: 100%;
+		margin: auto;
+	}
+	.pack img{
+		width: 60%;
+	}
+	.pack li img{
+		width: 10%;
+	}	
+	.link{
+		float: none;
+		width: 100%;
+		padding: .75em;
+		border-bottom: .15em solid #DDDBDD;
+		min-height: 50px;
+		}
 	footer{
 		padding: 1em 1em;
 	}
