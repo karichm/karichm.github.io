@@ -150,6 +150,9 @@ blockquote{
 .pack a:hover{
 	color: #4B4B5A;
 }
+.pack ul>a:hover{
+	padding-left: 1em;
+}
 /* Promo section discount*/
 #promo{
 	padding:4em 1em;
@@ -262,7 +265,7 @@ footer a:hover{
 #air{
 	background: url(../images/background-home-vl-1920.jpg) center no-repeat fixed;
 	background-size: cover;
-	min-height: 80vh;
+	min-height: 70vh;
 }
 /*----------FORM.HTML STARTS----------*/
 #splash-contact p{
