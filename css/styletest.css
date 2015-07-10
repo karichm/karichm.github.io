@@ -13,6 +13,58 @@ h1{
 	font-size: 3.7em;
 	display: block;
 }
+p{
+	padding-top: 1em;
+	line-height: 1.5em;
+}
+.text a{
+	display:inline-block;
+	padding: 1em 2em;
+	color: #ffffff;
+	background-color: #DB3B61;
+	margin-top: 3em;
+	text-decoration: none;
+	border-bottom: 0.25em solid #99304E;
+	border-radius: 0.3em;
+	transition-duration: 0.15s;
+  	transition-timing-function: ease-in-out;
+}
+.text a:hover{
+    background-color: #D81E5D;
+    border-bottom: 0.25em solid #99304E;
+    text-decoration:none;
+}
+header{
+	background-color: rgb(0, 171, 199);
+	padding: .5em 10%;
+	text-align: left;
+	border-bottom: .2em solid #089FAF;
+	position: fixed;
+	width: 100%;
+}
+nav{
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 0.85em;
+	text-align: right;
+	text-transform: uppercase;
+	position: absolute;
+	right: 3em;
+	top: .5em;
+}
+nav a{
+	margin-left: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;	
+	display: inline-block;
+}
+nav a:hover{
+	color: #c7ebf0;
+}
+#intro {
+	height:100vh;	
+}
 #test1{
 	background: url(../images/test1.jpg) center no-repeat fixed;
 	background-size: cover;
@@ -33,18 +85,8 @@ h1{
 	margin-left: 55%;
 	padding-top: 8em;
 }
-p{
-	padding-top: 1em;
-	line-height: 1.5em;
-}
-a{
-	display: inline-block;
-	padding: 1em;
-	margin-top: 2em;
-	background-color: green;
-	text-align: center;
-	border-radius: 0.2em;
-}
-a:hover{
-	background-color: blue;
+#calltoaction{
+	background: url(../images/ourprocess.png) center no-repeat fixed;
+	background-size: cover;
+	height:100vh;
 }
