@@ -259,12 +259,22 @@ footer a:hover{
 .steps img{
 	float: left;
 	width: 20%;
-	padding: 0 2em;
+	padding: 0em 2em;
 }
 .steps div{
 	float: left;
-	width: 80%;
+	width: 75%;
 	padding: 0 1em;
+	min-height: 250px;
+}
+.steps h6{
+	margin-bottom: .75em;
+	color: #827e8a;
+	letter-spacing: .25em;
+}
+.steps p{
+	margin-top: .75em;
+	color: #827e8a;	
 }
 #air{
 	background: url(../images/background-home-vl-1920.jpg) center no-repeat fixed;
