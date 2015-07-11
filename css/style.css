@@ -109,7 +109,7 @@ blockquote{
     text-decoration:none;
 }
 /* Packages section */
-#packages, #values, #brand-cta{
+#packages, #values, #more-options{
 	background-color: #E9E8E9;
 	padding: 3.5em 7em;
 }
@@ -244,39 +244,36 @@ footer a:hover{
 	text-decoration: underline;
 }
 /*----------BRAND--------------------*/
-#process{
-	text-align: left;
-}
-.step p{
-	padding-bottom: 2.5em;
-}
-#process{
-	padding: 3.5em 7em;
-}
 .value p{
 	margin-top: .75em;
 }
 .value img{
 	margin-bottom: 1em;
 }
-/*********JOHN!!!!!! HELP!!!!!*************/
-/*********How to Float two columns with diffrent widht*************/
-/*********JOHN!!!!!! HELP!!!!!*************/
-.two-columns{
-	float:left;
-	width: 50%;
-	padding: 1.25em;
+#process{
+	text-align: left;
+	max-width: 1000px;
+	margin: auto;
+	padding: 5em 0;
 }
-.icon {
-	width: 30%;
+.steps img{
+	float: left;
+	width: 20%;
+	padding: 0 2em;
 }
-.step{
-	width: 70%;
+.steps div{
+	float: left;
+	width: 80%;
+	padding: 0 1em;
 }
 #air{
 	background: url(../images/background-home-vl-1920.jpg) center no-repeat fixed;
 	background-size: cover;
 	min-height: 70vh;
+}
+#brand-cta{
+	background-color: #FFFFFF;
+	padding: 3.5em 7em;
 }
 /*----------FORM.HTML STARTS----------*/
 #splash-contact p{
@@ -301,12 +298,6 @@ input{
 	border-radius: 0.3em;
 	border: .15em solid #DDDBDD;
 	padding: 1em;
-}
-.icon{
-	width: 20%;
-}
-.step{
-	width: 80%;
 }
 /*----------FORM.HTML ENDS----------*/
 /* clearfix for float elements*/
