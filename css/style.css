@@ -21,7 +21,7 @@ h2{
 	font-size: 2.5em;
 }
 #cta h2 {
-	font-size: 4em;
+	font-size: 3.7em;
 }
 h3{
 	font-size: 1.5em;
@@ -87,7 +87,14 @@ blockquote{
 	background-color: #ffffff;
 }
 .wrapper{
-	max-width: 800px;
+	max-width: 850px;
+	margin: auto;
+}
+.wrapper p{
+	padding-top: .5em;
+}
+.wrapper-packages{
+	max-width: 1400px;
 	margin: 1em auto;
 }
 /*This is the main Button- CTA*/
@@ -125,10 +132,10 @@ blockquote{
 	color: #827e8a;
 	font-style: italic;
 }
-.pack, .value{
+.pack{
 	float:left;
 	width: 33.33%;
-	padding: 1.25em;
+	padding: 2em 1.25em;
 }
 .pack>img{
 	width: 100%;
@@ -138,7 +145,12 @@ blockquote{
 }
 .pack div img:hover{
 	transform: scale(1.2);
-	transition-duration: .5s;
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+}
+.pack div img{
+	transform: scale(1);
+	transition-duration: .2s;
 	transition-timing-function: ease-in-out;
 }
 .pack ul img{
@@ -250,6 +262,11 @@ footer a:hover{
 .value img{
 	margin-bottom: 1em;
 }
+.value{
+	float:left;
+	width: 33.33%;
+	padding: 1.25em;
+	}
 #process{
 	text-align: left;
 	max-width: 1000px;
@@ -286,19 +303,16 @@ footer a:hover{
 	background-color: #F4F3F3;
 	display: inline-block;
 }
-#air{
-	background: url(../images/background-home-vl-1920.jpg) center no-repeat fixed;
-	background-size: cover;
-	min-height: 50vh;
-}
 #brand-cta{
-	background-color: #FFFFFF;
+	background-color: #4A4B5A;
 	padding: 3.5em 7em;
+	color: #EDEDED;
 }
 #more-options a{
 	float: left;
-	width: 25%;
+	width: 33.33%;
 	padding: 3em 0;
+	text-decoration: none;
 }
 /*----------FORM.HTML STARTS----------*/
 #splash-contact p{
@@ -395,7 +409,6 @@ input{
 	.pack li img{
 		width: 10%;
 	}	
-
 	.link{
 		float: none;
 		width: 100%;
