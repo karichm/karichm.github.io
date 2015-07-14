@@ -37,8 +37,6 @@ ul{
 	list-style-type:none;
 	text-align: left;
 }
-li{
-}
 header{
 	background-color: #00BCD4;
 	padding: 1em 3em;
@@ -157,7 +155,7 @@ blockquote{
 	width: 5%;
 	margin: 0.5em;
 	}
-.pack a{
+.pack>a{
 	text-decoration: none;
 	color: #827e8a;
 	font-style: italic;
@@ -168,14 +166,10 @@ blockquote{
 	margin-top: 1em;
 	width: 100%;
 }
-.pack a:hover{
+.pack>a:hover{
 	color: #4B4B5A;
 	background-color: #F4F3F3;
 }
-.pack li:hover{
-		background-color: #F4F3F3;
-		transition-duration: .5s;
-	}
 /* Promo section discount*/
 #promo{
 	padding:4em 1em;
